@@ -1,0 +1,136 @@
+{
+  "contact": {
+    "name": "Giuseppe Vitolo",
+    "location": "Aarhus, Denmark",
+    "phone": "+45 6677 8702",
+    "email": "gvitolocs@gmail.com",
+    "links": [
+      {"label": "GitHub", "url": "https://github.com/gvitolocs"},
+      {"label": "LinkedIn", "url": "https://linkedin.com/in/gvitolocs"},
+      {"label": "Portfolio", "url": "https://mysite-five-lemon.vercel.app"},
+      {"label": "Pokoin", "url": "https://pokoin.com"}
+    ]
+  },
+  "languages": {
+    "en": {
+      "filename": "Giuseppe_Vitolo_EN.pdf",
+      "headline": "SOFTWARE ENGINEERING | BACKEND SYSTEMS | B2B PRODUCT DATA",
+      "profile": "Computer Engineering MSc student at Aarhus University building backend services, data pipelines and web products with Rust, Kubernetes and PostgreSQL. Experience processing 52.9 million historical price observations and connecting supplier documentation, product information and retail workflows through a B2B internship.",
+      "skills_title": "TECHNICAL SKILLS",
+      "skills": [
+        {"label": "Backend & data", "text": "Rust (Axum, Tokio, SQLx), Python, Java, SQL, PostgreSQL, MySQL, REST APIs"},
+        {"label": "Infrastructure & web", "text": "Kubernetes (k3s), Docker, Linux, Git, Cloudflare, React, JavaScript, HTML/CSS"}
+      ],
+      "experience_title": "ENGINEERING & PROFESSIONAL EXPERIENCE",
+      "experience": [
+        {
+          "title": "Backend & Data Engineering",
+          "organization": "Pokoin - independent software project",
+          "period": "2026",
+          "bullets": [
+            "Built marketplace APIs and React interfaces; shipped autocomplete in Rust (Axum, Tokio, SQLx) and deployed the website on Cloudflare.",
+            "Reduced home-feed median latency from <b>6.9 s to 26 ms</b> and raised throughput from <b>1.3 to 284 requests/s</b> using edge caching and request coalescing (September 2026 test, 8 concurrent requests).",
+            "Configured Kubernetes (k3s) API overflow, health-based failover and PostgreSQL writer/replica separation for consistent writes and distributed reads.",
+            "Imported <b>52.9 million historical price observations</b> from 951 archives into 32 PostgreSQL monthly partitions, validating row counts and preserving source hashes.",
+            "Automated daily snapshots of <b>624,798 product/variant rows</b> and <b>510,593 distinct products</b>; linked provider data to retail-facing catalog and pricing APIs through transactional, retryable imports."
+          ]
+        },
+        {
+          "title": "B2B Software Development Internship",
+          "organization": "prduct",
+          "period": "2026",
+          "bullets": [
+            "Mapped product-data handoffs, documentation ownership and data quality across suppliers, companies and retailers for Digital Product Passport readiness.",
+            "Built an interactive assessment website with purchasing and sales paths, product-data mapping and actionable results; iterated the sprint prototype with stakeholder feedback."
+          ]
+        },
+        {
+          "title": "Java Software Developer - Internship",
+          "organization": "Innovation Engineering, Salerno, Italy",
+          "period": "Jan-Mar 2025",
+          "bullets": [
+            "Built JavaFX dashboards for <b>3 simulated industrial machines</b>, integrating Modbus TCP acquisition with timestamped measurements in MySQL."
+          ]
+        },
+        {
+          "title": "Communications Assistant - Digital Education",
+          "organization": "Tmelnik, Prague, Czech Republic",
+          "period": "Jul 2025-Feb 2026",
+          "bullets": [
+            "Coordinated digital communication, event activities and reporting with international youth-education partners."
+          ]
+        }
+      ],
+      "education_title": "EDUCATION",
+      "education": [
+        {"title": "MSc Computer Engineering", "organization": "Aarhus University, Denmark", "period": "2026-2028 (expected)", "detail": "Distributed Systems and Security; Modelling and Verification; Software Correctness."},
+        {"title": "BSc Computer Engineering", "organization": "University of Salerno, Italy", "period": "2025", "detail": "Programming, algorithms, operating systems, networks, databases and software engineering."}
+      ],
+      "additional_title": "LANGUAGES & CERTIFICATES",
+      "additional": [
+        "<b>Languages:</b> Italian (native), English (C1), Danish (studying toward B1, A2B Sprogskole).",
+        "<b>Certificates:</b> Cambridge C1 Advanced; Docker Foundations; Google Git and GitHub; IBM Cybersecurity Fundamentals; AWS Cloud Technical Essentials."
+      ]
+    },
+    "da": {
+      "filename": "Giuseppe_Vitolo_CV.pdf",
+      "headline": "SOFTWAREUDVIKLING | BACKENDSYSTEMER | B2B-PRODUKTDATA",
+      "profile": "MSc-studerende i Computer Engineering ved Aarhus Universitet med erfaring i backend, datapipelines og webprodukter med Rust, Kubernetes og PostgreSQL. Har behandlet 52,9 millioner historiske prisobservationer. B2B-praktik med fokus på leverandørdokumentation, produktinformation og detailhandel.",
+      "skills_title": "TEKNISKE KOMPETENCER",
+      "skills": [
+        {"label": "Backend og data", "text": "Rust (Axum, Tokio, SQLx), Python, Java, SQL, PostgreSQL, MySQL, REST API'er"},
+        {"label": "Infrastruktur og web", "text": "Kubernetes (k3s), Docker, Linux, Git, Cloudflare, React, JavaScript, HTML/CSS"}
+      ],
+      "experience_title": "TEKNISK OG ERHVERVSMÆSSIG ERFARING",
+      "experience": [
+        {
+          "title": "Backend- og dataudvikling",
+          "organization": "Pokoin - selvstændigt softwareprojekt",
+          "period": "2026",
+          "bullets": [
+            "Byggede markedsplads-API'er og React-grænseflader; satte autocomplete i drift i Rust (Axum, Tokio, SQLx) og publicerede sitet på Cloudflare.",
+            "Reducerede median svartid fra <b>6,9 s til 26 ms</b> og øgede kapaciteten fra <b>1,3 til 284 forespørgsler/s</b> med edge-cache og samling af samtidige kald (forsidetest i september 2026, 8 samtidige forespørgsler).",
+            "Konfigurerede Kubernetes (k3s) til ekstra API-trafik, sundhedsbaseret failover og PostgreSQL-skriver/læsereplikaer for konsistente skrivninger og fordelte læsninger.",
+            "Importerede <b>52,9 millioner historiske prisobservationer</b> fra 951 arkiver til 32 månedlige PostgreSQL-partitioner med kontrol af rækkeantal og bevarede kildehashes.",
+            "Automatiserede daglige snapshots med <b>624.798 produkt-/variantrækker</b> og <b>510.593 forskellige produkter</b>; koblede leverandørdata til katalog- og pris-API'er med transaktioner og genoptagelige importer."
+          ]
+        },
+        {
+          "title": "Praktik i B2B-softwareudvikling",
+          "organization": "prduct",
+          "period": "2026",
+          "bullets": [
+            "Kortlagde produktdata, dokumentationsansvar og datakvalitet på tværs af leverandører, virksomheder og detailhandel som grundlag for digitale produktpas.",
+            "Byggede et interaktivt vurderingssite med indkøbs- og salgsforløb, produktdataoverblik og konkrete næste skridt; tilpassede sprintprototypen med feedback fra interessenter."
+          ]
+        },
+        {
+          "title": "Java-softwareudvikler - praktik",
+          "organization": "Innovation Engineering, Salerno, Italien",
+          "period": "Jan-mar 2025",
+          "bullets": [
+            "Byggede JavaFX-operatørvisninger til <b>3 simulerede industrimaskiner</b> med Modbus TCP-dataopsamling og tidsstemplede målinger i MySQL."
+          ]
+        },
+        {
+          "title": "Kommunikationsassistent - digital uddannelse",
+          "organization": "Tmelnik, Prag, Tjekkiet",
+          "period": "Jul 2025-feb 2026",
+          "bullets": [
+            "Koordinerede digital kommunikation, arrangementer og rapportering med internationale partnere inden for ungdomsuddannelse."
+          ]
+        }
+      ],
+      "education_title": "UDDANNELSE",
+      "education": [
+        {"title": "MSc Computer Engineering", "organization": "Aarhus University, Danmark", "period": "2026-2028 (forventet)", "detail": "Distributed Systems and Security; Modelling and Verification; Software Correctness."},
+        {"title": "BSc Computer Engineering", "organization": "University of Salerno, Italien", "period": "2025", "detail": "Programmering, algoritmer, operativsystemer, netværk, databaser og softwareudvikling."}
+      ],
+      "additional_title": "SPROG OG CERTIFIKATER",
+      "additional": [
+        "<b>Sprog:</b> Italiensk (modersmål), engelsk (C1), dansk (på vej mod B1, A2B Sprogskole).",
+        "<b>Certifikater:</b> Cambridge C1 Advanced; Docker Foundations; Google Git and GitHub; IBM Cybersecurity Fundamentals; AWS Cloud Technical Essentials."
+      ]
+    }
+  }
+}
